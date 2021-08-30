@@ -89,11 +89,12 @@ body {
 /* Gallery Card -> Body Content */
 
 .notion-collection-card__content {
+    padding-top: 2px;
     padding: 10px;
 }
 
 .notion-collection-card__property {
-    margin-bottom: 10px;
+    margin-bottom: 2px;
 }
 
 
