@@ -209,12 +209,16 @@ notion-image page-width > div {
     .notion-collection-list__item:hover {
         background-color: hsla(208, 0%, 100%, 0.1);
     }
+    
+/* default navbar 
 
     .notion-navbar {
         background: hsla(0, 0%, 100%, 0.1);
         -webkit-backdrop-filter: blur(15px);
         box-shadow: rgba(0,0,0,0.1) 0px 0px 16px 1px;
     }
+
+*/
 
     .super-navbar.balanced {
         --color-bg-default: hsla(208, 0%, 20%, 0.5);
@@ -226,10 +230,6 @@ notion-image page-width > div {
         background-color: hsla(208, 0%, 100%, 0.1);
     }
 
-    .notion-navbar {
-        background-color: hsla(208, 0%, 0%, 0.4);
-
-    }
 
     .super-navbar__menu {
         --color-bg-default: #1c1c1c;
@@ -249,17 +249,18 @@ notion-image page-width > div {
         background-color: hsl(0deg 100% 56% / 42%);
     }
 
-    /* 
+/* 
     trying to create a style for the "compoany" chips
     
     currently it's selecting all pages. plus I don't like the additional visual clutter. 
-    */ 
 
-    /* .notion-page>div {
-        background: hsl(0deg 0% 100% / 11%);
-        padding: 3px;
-        padding-right: 6px;
-    } */
+        .notion-page>div {
+            background: hsl(0deg 0% 100% / 11%);
+            padding: 3px;
+            padding-right: 6px;
+        } */
+
+/* end of dark mode section */
 
 }
   
