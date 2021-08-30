@@ -86,6 +86,16 @@ body {
     border-bottom-color: rgba(55, 53, 47, 0.0);
 }
 
+/* Gallery Card -> Body Content */
+
+.notion-collection-card__content {
+    padding: 10px;
+}
+
+.notion-collection-card__property {
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -237,6 +247,18 @@ notion-image page-width > div {
         color: hsla(208, 0%, 100%, 0.6);
         background-color: hsl(0deg 100% 56% / 42%);
     }
+
+    /* 
+    trying to create a style for the "compoany" chips
+    
+    currently it's selecting all pages. plus I don't like the additional visual clutter. 
+    */ 
+
+    /* .notion-page>div {
+        background: hsl(0deg 0% 100% / 11%);
+        padding: 3px;
+        padding-right: 6px;
+    } */
 
 }
   
