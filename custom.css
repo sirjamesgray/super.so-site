@@ -20,27 +20,25 @@ html {
 }
 
 .super-navbar.balanced {
---color-bg-default: hsla(208, 0%, 100%, 0.8);
-backdrop-filter: blur(24px);
---color-text-default: hsla(208, 0%, 0%, 0.6);
-box-shadow: rgba(0,0,0,0.05) 0px 0px 16px 1px;
+    --color-bg-default: hsla(208, 0%, 100%, 0.8);
+    backdrop-filter: blur(24px);
+    --color-text-default: hsla(208, 0%, 0%, 0.6);
+    box-shadow: rgba(0,0,0,0.05) 0px 0px 16px 1px;
 }
 
 .notion-table-of-contents {
-background-color: white;
-box-shadow: 
-rgba(0,0,0,0.05) 
-0px 0px 16px 1px;
-border-radius: 12px;
-padding: 8px;
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.05) 0px 0px 16px 1px;
+    border-radius: 12px;
+    padding: 8px;
 }
 
 .notion-table-of-contents__item .notion-semantic-string {
-border-bottom: 0px solid var(--color-border-dark);
+    border-bottom: 0px solid var(--color-border-dark);
 }
 
 .notion-table-of-contents__item {
-padding:4px;
+    padding:4px;
 }
 
 .notion-collection__header {
@@ -52,41 +50,42 @@ padding:4px;
 }
 
 .notion-heading {
-color: rgba(0,0,0,0.6);
+    color: rgba(0,0,0,0.6);
 }
 
 .notion-collection-card {
-background-color:white;
-box-shadow: 
-rgba(0,0,0,0.05) 
-0px 0px 16px 1px;
-border-radius: 12px;
+    background-color:white;
+    box-shadow: 
+    rgba(0,0,0,0.05) 
+    0px 0px 16px 1px;
+    border-radius: 12px;
 }
 
 .notion-collection-card:after {
-box-shadow: 
-rgba(0,0,0,0.1) 
-0px 0px 18px 1px;
-opacity: 0;
-transition: opacity 0.3s ease-in-out;
+    box-shadow: 
+    rgba(0,0,0,0.1) 
+    0px 0px 18px 1px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .notion-collection-card:after::hover {
-opacity: 1;
+    opacity: 1;
 }
 
 .notion-collection-card__property {
-overflow-wrap: normal;
+    overflow-wrap: normal;
 }
 
 body {
-background-color: rgba(0,0,0,0.02) ;
+    background-color: rgba(0,0,0,0.02) ;
 }
 
 .notion-semantic-string .link {
-color: hsla(208, 95%, 50%, 1);
-border-bottom-color: rgba(55, 53, 47, 0.0);
+    color: hsla(208, 95%, 50%, 1);
+    border-bottom-color: rgba(55, 53, 47, 0.0);
 }
+
 
 
 
@@ -94,71 +93,69 @@ border-bottom-color: rgba(55, 53, 47, 0.0);
 /*  navbars  */ 
 
 .notion-navbar {
-
-background: (0, 0%, 100%, 0.6); !important
-
-box-shadow: rgba(0,0,0,0.05) 0px 0px 16px 1px;
-
-backdrop-filter: blur(20px) saturate(200%);
-
+    background: (0, 0%, 100%, 0.6); !important
+    box-shadow: rgba(0,0,0,0.05) 0px 0px 16px 1px;
+    backdrop-filter: blur(20px) saturate(200%);
 }
+
 
 .super-navbar.minimal {
-
-background-color: hsla(0, 0%, 100%, 0.5);
-
-backdrop-filter: blur(24px);
-
-box-shadow: 0px -1px 16px 1px rgba(0, 0, 0, 0.05);
-
+    background-color: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: blur(24px);
+    box-shadow: 0px -1px 16px 1px rgba(0, 0, 0, 0.05);
 }
-
 
 
 /* text overflow for page titles and descriptions */ 
 
 .gallery .notion-collection-card__property .notion-semantic-string {
-white-space: normal;
-overflow-wrap: normal;
+    white-space: normal;
+    overflow-wrap: normal;
 }
 
+
 .notion-collection-card.gallery .notion-property__title .notion-semantic-string {
-white-space: normal;
-overflow-wrap: normal;
+    white-space: normal;
+    overflow-wrap: normal;
 }
+
 
 /* remove page icon */ 
 
 .notion-property__title .notion-property__title__icon-wrapper {
-display:none;
+    display:none;
 }
+
 
 /* image stuff */ 
 
 img {
-border-radius: 8px;
-box-shadow: 
-rgba(0,0,0,0.05) 
-0px 0px 16px 1px;
+    border-radius: 8px;
+    box-shadow: 
+    rgba(0,0,0,0.05) 
+    0px 0px 16px 1px;
 }
 
 
 .notion-image {
-box-shadow: 
-rgba(0,0,0,0.05) 
-0px 0px 16px 1px;
-border-radius: 12px;
-padding: 12px;
-background-color: white;
+    box-shadow: 
+    rgba(0,0,0,0.05) 
+    0px 0px 16px 1px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: white;
 }
-
 
 
 /* need to figure out how to select the div container of the img so I can turn off overflow with "overflow: visible;" */ 
 
 notion-image page-width > div {
-overflow:visible;
+    overflow:visible;
 }
+
+
+
+
 
 
 /* dark mode stuff */ 
@@ -168,78 +165,78 @@ overflow:visible;
 @media (prefers-color-scheme: dark) {
 
 :root{
---color-text-default-light: hsla(208, 0%, 100%, 0.2);
-}
+        --color-text-default-light: hsla(208, 0%, 100%, 0.2);
+    }
 
-.notion-navbar__title {
-color: hsla(208, 0%, 100%, 0.6);
-}
+    .notion-navbar__title {
+    color: hsla(208, 0%, 100%, 0.6);
+    }
 
-body {
-background-color: rgba(0,0,0,1) ;
-}
+    body {
+    background-color: rgba(0,0,0,1) ;
+    }
 
-.notion-header__title { 
-    color: hsla(208, 60%, 40%, 1);
-}
+    .notion-header__title { 
+        color: hsla(208, 60%, 40%, 1);
+    }
 
-.notion-table-of-contents {
-background-color: hsla(208, 0%, 100%, 0.1);
+    .notion-table-of-contents {
+    background-color: hsla(208, 0%, 100%, 0.1);
 
-}
+    }
 
-.notion-semantic-string {
-color: hsla(208, 0%, 100%, 0.6);
-}
+    .notion-semantic-string {
+        color: hsla(208, 0%, 100%, 0.6);
+    }
 
-/* underline for the list view */ 
+    /* underline for the list view */ 
 
-.notion-collection-list__item .notion-property__title .notion-semantic-string > span {
-border-bottom: none;
-}
+    .notion-collection-list__item .notion-property__title .notion-semantic-string > span {
+        border-bottom: none;
+    }
 
-.notion-collection-list__item:hover {
-background-color: hsla(208, 0%, 100%, 0.1);
-}
+    .notion-collection-list__item:hover {
+        background-color: hsla(208, 0%, 100%, 0.1);
+    }
 
-.notion-navbar {
-background: hsla(0, 0%, 100%, 0.1);
--webkit-backdrop-filter: blur(15px);
-box-shadow: rgba(0,0,0,0.1) 0px 0px 16px 1px;
-}
+    .notion-navbar {
+        background: hsla(0, 0%, 100%, 0.1);
+        -webkit-backdrop-filter: blur(15px);
+        box-shadow: rgba(0,0,0,0.1) 0px 0px 16px 1px;
+    }
 
-.super-navbar.balanced {
---color-bg-default: hsla(208, 0%, 20%, 0.5);
-backdrop-filter: blur(24px);
---color-text-default: hsla(208, 0%, 100%, 0.6);
-}
+    .super-navbar.balanced {
+        --color-bg-default: hsla(208, 0%, 20%, 0.5);
+        backdrop-filter: blur(24px);
+        --color-text-default: hsla(208, 0%, 100%, 0.6);
+    }
 
-.notion-collection-card {
-background-color: hsla(208, 0%, 100%, 0.1);
-}
+    .notion-collection-card {
+        background-color: hsla(208, 0%, 100%, 0.1);
+    }
 
-.notion-navbar {
-background-color: hsla(208, 0%, 0%, 0.4);
+    .notion-navbar {
+        background-color: hsla(208, 0%, 0%, 0.4);
 
-}
+    }
 
-.super-navbar__menu {
---color-bg-default: #1c1c1c;
-}
+    .super-navbar__menu {
+        --color-bg-default: #1c1c1c;
+    }
 
 
-.notion-breadcrumb__divider {
-color: white; 
-}
+    .notion-breadcrumb__divider {
+        color: white; 
+    }
 
-.notion-image {
-background-color: hsla(208, 0%, 100%, 0.1);
-}
+    .notion-image {
+        background-color: hsla(208, 0%, 100%, 0.1);
+    }
 
-.notion-pill {
-color: hsla(208, 0%, 100%, 0.6);
-background-color: hsl(0deg 100% 56% / 42%);
-}
+    .notion-pill {
+        color: hsla(208, 0%, 100%, 0.6);
+        background-color: hsl(0deg 100% 56% / 42%);
+    }
 
 }
   
